@@ -47,7 +47,7 @@ public class encaps {
 
         vidhyarthi v3 = outer.new vidhyarthi();
 
-        // Use parentheses () to call the methods, not =
+       
         v3.setNaam("Sharad Baniya");
         v3.setUmer(-5); // This will trigger your "Error: Umer cannot be negative" print
 
