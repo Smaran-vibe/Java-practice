@@ -46,6 +46,7 @@ public class UserJourneyTest {
         UserJourney trip1 = new UserJourney(uname, dest, dur);
 
         trip1.displayStatus();
+        input.close();
 
     }
 }

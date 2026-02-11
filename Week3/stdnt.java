@@ -18,7 +18,7 @@ class studentBlueprint  {
     System.out.println("Student Gender: "+ StudentGender);
   }
 }
-public class Student {
+public class stdnt {
     public static void main(String[] args) {
         studentBlueprint student1 = new studentBlueprint("Smaran Aryal",19,"Male");
        

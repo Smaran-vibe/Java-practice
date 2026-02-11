@@ -53,5 +53,6 @@ public class encaps {
 
        
         System.out.println("Naam: " + v3.getNaam() + "\nUmer: " + v3.getUmer());
+        
     }
 }

@@ -25,6 +25,7 @@ class TestCalculator {
 
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
+        scanner.close();
     }
 }
 

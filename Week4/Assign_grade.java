@@ -43,6 +43,7 @@ public class Assign_grade {
         
         // print the grade
         System.out.println("The student's grade is: " + student.grade);
+        input.close();
     }
 }
 
