@@ -11,7 +11,7 @@ class Payment {
 class CashPayment extends Payment {
     @Override
     void pay(double amount) {
-        System.out.println("Paid " + amount + "using Cash. (No transation fee)");
+        System.out.println("Paid " + amount + " using Cash. (No transation fee)");
 
     }
 }
@@ -19,7 +19,7 @@ class CashPayment extends Payment {
 class CardPayment extends Payment {
     @Override
     void pay(double amount) {
-        System.out.println("Paid " + amount + "using card.(Processing through Bank.");
+        System.out.println("Paid " + amount + " using card.(Processing through Bank.");
 
     }
 
@@ -28,7 +28,7 @@ class CardPayment extends Payment {
 class UPIpayment extends Payment {
     @Override
     void pay(double amount) {
-        System.out.println("Paid " + amount + "using UPI.(Instant UPI Payment)");
+        System.out.println("Paid " + amount + " using UPI.(Instant UPI Payment)");
     }
 }
 
