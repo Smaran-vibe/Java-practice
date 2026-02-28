@@ -11,7 +11,6 @@ class member {
         System.out.println("A blank guest profile has been created.");
     }
 
-
     member(String name) {
         super();
         this.name = name;
@@ -20,15 +19,11 @@ class member {
     }
 }
 
-
 public class DefaultExample {
     public static void main(String[] args) {
-        
-        member guest = new member(); 
-        
-        
+
+        member guest = new member();
+
         member permanent = new member("Smaran");
     }
 }
-    
-

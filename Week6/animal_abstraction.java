@@ -50,6 +50,7 @@ public class  animal_abstraction {
 
         a1.eat();
         a2.eat();
+        
     }
 }
 
