@@ -14,6 +14,7 @@ class Rect__angle extends shap {
     void draw() {
         System.out.println("Drawing Rectangle");
     }
+
 }
 
 public class draw {
